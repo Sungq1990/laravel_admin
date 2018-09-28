@@ -30,12 +30,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     @stop
 
     @section('head_js')
-            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="{{ asset('lib/html5shiv/3.7.2/html5shiv.js') }}"></script>
-    <script src="{{ asset('lib/respond/1.4.2/respond.min.js') }}"></script>
-    <![endif]-->
     <style>
         .login_background {
             background-image: url({{'http://resource.health666.club/admin_back_img.jpg' }});
@@ -97,10 +91,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                            maxlength="26" name="email" placeholder="用户名"/>
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 </div>
-                {{--<div class="form-group has-feedback">--}}
-                {{--<input type="password" class="form-control"  value="{{Input::old('password')}}" maxlength="16" name="password" placeholder="登录密码"/>--}}
-                {{--<span class="glyphicon glyphicon-lock form-control-feedback"></span>--}}
-                {{--</div>--}}
                 <div class="form-group has-feedback">
                     <input type="password" class="form-control" id="id_pwd" maxlength="16" name="password"
                            placeholder="登录密码"/>
@@ -115,15 +105,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </div><!-- /.col    -->
                 </div>
             </form>
-
-
-            {{--<div class="social-auth-links text-center">--}}
-            {{--<p>- 或 -</p>--}}
-            {{----}}
-            {{--<a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i>注册</a>--}}
-            {{--<a href="#" class="btn btn-block btn-social btn-google-plus btn-flat"><i class="fa fa-google-plus"></i>使用Google+帐号登录</a>--}}
-            {{--</div><!-- /.social-auth-links -->--}}
-
         </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
     @stop

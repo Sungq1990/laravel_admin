@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AuthorityRequest;
 
-class AuthorityController extends CommonController
+class AuthorityController extends Controller
 {
     //登录页面
     public function getLogin()
@@ -17,12 +17,12 @@ class AuthorityController extends CommonController
     {
         $username = $request->input('email');
         $password = $request->input('password');
-        if ($username != "sunguanqun") {
+        if ($username != env('email')) {
             return redirect()->back()->withInput()
                 ->withErrors(array('attempt' => '用户名错误。'));
         }
 
-        if ($password != md5($username . '459905999')) {
+        if ($password != md5($username . env('password'))) {
             return redirect()->back()->withInput()
                 ->withErrors(array('attempt' => '密码错误。'));
         }

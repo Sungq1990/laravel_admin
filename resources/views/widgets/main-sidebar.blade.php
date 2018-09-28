@@ -30,14 +30,13 @@
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-home"></i>
-                    <span>楼盘管理</span>
+                    <span>用户管理</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{ route('pub.house.index') }}"><i class="fa fa-list"></i>摇号楼盘列表</a></li>
-                    <li><a href="{{ route('pub.houseLucky.index') }}"><i class="fa fa-list"></i>楼盘中签统计</a></li>
+                    <li><a href="{{ route('pub.user.index') }}"><i class="fa fa-list"></i>用户列表</a></li>
                 </ul>
             </li>
         </ul><!-- /.sidebar-menu -->

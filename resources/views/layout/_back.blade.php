@@ -158,13 +158,6 @@
         })
     })
 </script>
-<!-- AdminLTE for demo purposes -->
-{{--<script src="{{ asset('dist/js/yascmf.js') }}" type="text/javascript"></script>--}}
-
-        <!-- Optionally, you can add Slimscroll and FastClick plugins.
-          Both of these plugins are recommended to enhance the
-          user experience. Slimscroll is required when using the
-          fixed layout. -->
 
 @section('extraSection')
 @show{{-- 补充额外的一些东东，不一定是JS，可能是HTML --}}
