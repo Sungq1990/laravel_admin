@@ -9,7 +9,7 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="{{ 'http://wx1.sinaimg.cn/mw690/0060lm7Tly1frflzmoyx2j30hs0hrq3c.jpg' }}" class="img-circle"
+                <img src="{{ asset('dist/img/avatar.png') }}" class="img-circle"
                      alt="User Image"/>
             </div>
             <div class="pull-left info">

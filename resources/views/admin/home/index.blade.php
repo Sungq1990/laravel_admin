@@ -9,7 +9,7 @@
     <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-red"><i class="fa fa-home"></i></span>
+                <span class="info-box-icon bg-red"><i class="fa fa-user"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">新增注册用户</span>
                     <span class="info-box-number">10000</span>
@@ -18,7 +18,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-green"><i class="fa fa-car"></i></span>
+                <span class="info-box-icon bg-green"><i class="fa fa-pie-chart"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">新增订单</span>
                     <span class="info-box-number">100</span>
@@ -27,7 +27,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-blue"><i class="fa fa-jpy"></i></span>
+                <span class="info-box-icon bg-blue"><i class="fa fa-signal"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">活跃用户数</span>
                     <span class="info-box-number">10000</span>
@@ -36,7 +36,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-yellow"><i class="fa fa-signal"></i></span>
+                <span class="info-box-icon bg-yellow"><i class="fa fa-jpy"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">成交额</span>
                     <span class="info-box-number">100000</span>

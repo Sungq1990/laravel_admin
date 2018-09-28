@@ -32,7 +32,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     @section('head_js')
     <style>
         .login_background {
-            background-image: url({{'http://resource.health666.club/admin_back_img.jpg' }});
+            background-image: url({{asset('dist/img/back.jpg') }});
             background-size: 100% 100%;
         }
 

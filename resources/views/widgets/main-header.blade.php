@@ -25,7 +25,7 @@
                     <!-- Menu Toggle Button -->
                     <a title="个人中心" href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <!-- The user image in the navbar-->
-                        <img src="{{ 'http://wx1.sinaimg.cn/mw690/0060lm7Tly1frflzmoyx2j30hs0hrq3c.jpg' }}"
+                        <img src="{{ asset('dist/img/avatar.png') }}"
                              class="user-image" alt="个人中心"/>
                         <!-- hidden-xs hides the username on small devices so only the image appears. -->
                         <span class="hidden-xs"> 欢迎您:&nbsp; admin</span>
@@ -33,7 +33,7 @@
                     <ul class="dropdown-menu">
                         <!-- The user image in the menu -->
                         <li class="user-header">
-                            <img src="{{ 'http://wx1.sinaimg.cn/mw690/0060lm7Tly1frflzmoyx2j30hs0hrq3c.jpg' }}"
+                            <img src="{{ asset('dist/img/avatar.png') }}"
                                  class="img-circle" alt="User Image"/>
                             <p>
                                 <small>Be Happy</small>
